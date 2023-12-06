@@ -59,7 +59,25 @@ public class C03Operator {
 //        System.out.println(result2);
 //        System.out.println(!result2);
 
-//        비트연산자 : &, 각 자리 수가 모두 1일 경우만 1
+//        비트연산자
+//              0000101      0000110
+//        int n1 = 5; int n2 = 6;
+//        System.out.println(n1 & n2); //4 각 자리 수가 모두 1일 경우에 1
+//        System.out.println(n1 | n2); //7 각 자리 수 중 하나라도 1일 경우 1
+//        System.out.println(n1 ^ n2); //3 각 자리 수가 일치하지 않을 경우 1
+//        System.out.println(~ n1); // 각자리마다 반대의 숫자 변환 (첫번째 자리는 음/양 이다.)
+////        시프트 연산자 : <<, >> 곱셈과 나눗셈의 효과가 발생
+//        System.out.println(n1 << 1); // 숫자만큼씩 자리를 옮김 0001010
+//
+//        int a = 13; //00001101
+//        int b = 9;  //00001001
+//
+//        while(b!=1){
+//            int same_index = a & b; //and연산으로 구한 carry 형성
+//            a = a ^ b; // XOR연산으로 구한 비트값 a에 할당
+//            b = same_index << 1;
+//        }
+//        System.out.println(a);
 
 
 

@@ -55,9 +55,12 @@ public class C02Variable {
 //        int ch1_num = ch1;
 //        System.out.println(ch1_num);
 //
+////        char형 알파벳 비교를 위한 묵시적 타입변환 일어난다.
+//        System.out.println('A' > 'a');
+
 //        int my_int1 = 10;
 ////        int -> double
-//        double my_double1 = my_int1;
+//        double my_double1 = my_int1
 //        System.out.println(my_double1);
 ////        에러 발생 : my_int1 = my_double1;
 ////        double -> int 명시적 타입은 가능 : 소수점값 손실 발생 가능성이 있다
@@ -69,30 +72,30 @@ public class C02Variable {
 //        char my_char2 = 'b';
 //        int char_num = (int)my_char2;
 //        int a가 1 int b가 4일때 둘을 나눈것을 int에 담아 출력, double에 담아 출력.
-        int a = 1;
-        int b = 4;
-        int c = a/b;
-        double d = a/b;
-        System.out.println(c);
-        System.out.println(d);
-        double d2 = (double)a/b;
-        System.out.println(d2);
-
-
-
-//        변수와 상수
-//        선언과 동시에 초기화
-        int a1 = 10;
-//        변수값 변경
-        a1 = 20;
-//        선언만 한 뒤에 나중에 초기화
-        int a2; //선언만 됐을때는 값이 0으로 초기화
-        a2 = 20;
-//        상수는 값의 재할당이 불가능
-        final int ages = 20;
-//        상수는 값의 변경이 불가능 -> ages = 30; 에러발생
-//        상수는 선언만 한 뒤에 나중에 초기화 하는 방식이 java이전에는 안됐었지만 이후 가능해짐
-        final int ages2;
-        ages2 = 20;
+//        int a = 1;
+//        int b = 4;
+//        int c = a/b;
+//        double d = a/b;
+//        System.out.println(c);
+//        System.out.println(d);
+//        double d2 = (double)a/b;
+//        System.out.println(d2);
+//
+//
+//
+////        변수와 상수
+////        선언과 동시에 초기화
+//        int a1 = 10;
+////        변수값 변경
+//        a1 = 20;
+////        선언만 한 뒤에 나중에 초기화
+//        int a2; //선언만 됐을때는 값이 0으로 초기화
+//        a2 = 20;
+////        상수는 값의 재할당이 불가능
+//        final int ages = 20;
+////        상수는 값의 변경이 불가능 -> ages = 30; 에러발생
+////        상수는 선언만 한 뒤에 나중에 초기화 하는 방식이 java이전에는 안됐었지만 이후 가능해짐
+//        final int ages2;
+//        ages2 = 20;
     }
 }
