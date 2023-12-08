@@ -63,23 +63,23 @@ public class C04IfStatements {
 //            System.out.println("탑승불가");
 //        }
 //
-//        int myMoney = 10000;
-//        boolean inStolen = false;
-//        System.out.println("도난카드입니까? 예/아니오로 대답하시오");
-//        Scanner sc = new Scanner(System.in);
-//        if(sc.nextLine().equals("예")){
-//            inStolen = true;
-//        }
-//        if(myMoney < 1500 || inStolen==true){
-//            System.out.println("탑승불가입니다.");
-//        }else {
-//            System.out.println("정상탑승되엇습니다.");
-//        }
-//        if(myMoney >= 1500 && inStolen==false){
-//            System.out.println("정상 탑승되었습니다.");
-//        }else {
-//            System.out.println("탑승불가입니다.");
-//        }
+        int myMoney = 10000;
+        boolean inStolen = false;
+        System.out.println("도난카드입니까? 예/아니오로 대답하시오");
+        Scanner sc = new Scanner(System.in);
+        if(sc.nextLine().equals("예")){
+            inStolen = true;
+        }
+        if(myMoney < 1500 || inStolen==true){
+            System.out.println("탑승불가입니다.");
+        }else {
+            System.out.println("정상탑승되엇습니다.");
+        }
+        if(myMoney >= 1500 && inStolen==false){
+            System.out.println("정상 탑승되었습니다.");
+        }else {
+            System.out.println("탑승불가입니다.");
+        }
 //        삼항연산자
 //        문법
 //        결과값 = 조건식 ? 반환값1 : 반환값2
@@ -94,7 +94,7 @@ public class C04IfStatements {
 //        택시 : 10000원
 //        버스 : 3000원
 //        킥보드 : 2000원
-//        걸어가기 : 0원
+//        걸어가기 : 0원S
 //        System.out.println("금액을 입력해주세요.");
 //        Scanner sc = new Scanner(System.in);
 //        int myMoney = sc.nextInt();
@@ -147,5 +147,7 @@ public class C04IfStatements {
 //                break;
 //        }
 //
+        String str = "hello";
+        System.out.println(str);
         }
 }

@@ -1,9 +1,9 @@
 import java.util.Arrays;
-import java.util.Scanner;
-
+//import java.util.Scanner;
+//
 public class C05LoopStatements {
     public static void main(String[] args) {
-////        while문 사용해서 2~10까지 출력
+        ////        while문 사용해서 2~10까지 출력
 //        int a = 2;
 //        while (a<=10){
 //            System.out.println(a);
@@ -42,6 +42,7 @@ public class C05LoopStatements {
 //            String input = sc.nextLine();
 //            if (answer.equals(input)) {
 //                System.out.println("문이 열렸습니다.");
+//                  break;
 //            } else {
 //                System.out.println("비밀번호가 틀렸습니다.");
 //            }
@@ -96,23 +97,74 @@ public class C05LoopStatements {
 //        System.out.println(num); // if문 밖에서 선언문 변수값을 if안에서 접근하며 변경하는것은
 //        System.out.println(); //if문 안에서 정의된 변수는 인지 불가
 
-//        다중 반복문
-        for(int num=2; num< 10; num++) {
-            System.out.println(num + "단 입니다.");
-            for (int j=1; j<=9; j++) {
-                System.out.println(num + " X " + j +" = " + num*j);
-            }
-        }
-//        2중 for문을 통해 배열 접근
-        int[][] arr = {{1,2,3,4}, {5,6,7,8}};
-        for(int k = 0; k<arr.length; k**){
-            for (int i = 0; i < arr[k].length; i **){
-                System.out.println(arr[k][i]);
-            }
-        }
+////        다중 반복문
+//        for(int num=2; num< 10; num++) {
+//            System.out.println(num + "단 입니다.");
+//            for (int j=1; j<10; j++) {
+//                System.out.println(num + " X " + j +" = " + num*j);
+//            }
+//        }
+////        2중 for문을 통해 배열 접근
+//        int[][] arr = {{1,2,3,4}, {5,6,7,8}};
+//        for(int k = 0; k<arr.length; k++){
+//            for (int i = 0; i < arr[k].length; i ++){
+//                System.out.println(arr[k][i]);
+//            }
+//        }
+
+//        라벨문
+//        loop1:
+//        for(int i =0; i<5; i++){
+//            loop2:
+//            for(int j=0; j<5; j++){
+//            }
+//        }
+
+//        라벨문 활용
+//
+
+//        int[][] matrix = {{1,2,3,4},{5,6,7},{8,9},{10,11,12,13,14}};
+//        int[][] matrix = {{1,2,3,4},{5,6,7},{8,9},{10,11,12,13,14}};
+//        int target = 11;
+//        l1:
+//        for(int i=0; i< matrix.length; i++){
+//            for(int j=0; j<matrix[i].length; j++){
+//               if(matrix[i][j] == target){
+//                   System.out.println(i +","+j +"번째에 있습니다.");
+//                   break l1;
+//               }
+//            }
+//        }
+
+//        1~20 숫자가 있을때, 이중에 약수가 5개 이상인 숫자중에 가장 작은값을 구하시오
+//        불필요한 추가 반복 없도록 -> 라벨문
+//        힌트
+//        바깥 for문 : 1~20반복
+//        안쪽 for문 : 약수찾기 for문
+//        약수개수 세는 count값 필요
 
 
+//        int answer = 0;
+//        l1:
+//        for(int i=1; i<=20; i++){
+//            int count=0;
+//            for(int j=1; j<=i; j++){
+//                if(i % j == 0){
+//                    count++;
+//                }
+//            }
+//            if(count >= 5){
+//                answer = i;
+//                break l1;
+//            }
+//        }
+//        System.out.println(answer);
 
     }
 }
+
+
+
+
+
 

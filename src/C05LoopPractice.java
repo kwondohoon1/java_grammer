@@ -19,26 +19,27 @@ public class C05LoopPractice {
 //            if(num=0){
 //                break;
 //            }
-//        }
+//        }                                           h     hhb b
 //        System.out.println(result);
 
 //
 //        최대공약수 구하기
 //        int a = 24; int b = 36;
-//        int answer = 0;
+//            int num = a > b ? b: a;
+//        int maxNum = 0;
 //        for(int i =1 ; i<=24; i++){
 //            if(24 % i == 0 && 36 % i == 0){
-//                answer = i;
+//                maxNum = i;
 //            }
 //        }
-
-        int a = 24; int b = 36;
-        int num = a > b ? b : a;
-        int maxNum = 0;
-        for(int i=1; i<=num; i++){
-            maxNum = i;
-        }
-        int minNum = a/maxNum * b/maxNum;
+//
+//        int a = 24; int b = 36;
+//        int num = a > b ? b : a;
+//        int maxNum = 0;
+//        for(int i=1; i<=num; i++){
+//            maxNum = i;
+//        }
+//        int minNum = a/maxNum * b
 
 
     }

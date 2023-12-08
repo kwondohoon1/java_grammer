@@ -34,7 +34,7 @@ public class C02Variable {
 //        BigDecimal myBig1 = new BigDecimal("1.03");
 //        BigDecimal myBig2 = new BigDecimal("0.42");
 //        System.out.println(myBig1.subtract(myBig2));
-
+//
 ////        문자 : char
 //        char my_char = '가';
 //        System.out.println(my_char);
@@ -43,13 +43,13 @@ public class C02Variable {
 //        boolean my_bool = true;
 //        System.out.println(my_bool);
 //    }
-
+//
 //        int bool_num1 = 20;
 //        int bool_num2 = 10;
 //        if (bool_num1 > bool_num2) {
 //            System.out.println("조건식이 참입니다.");
 //        }
-
+//
 //        묵시적 타입변환
 //        char ch1 = 'a';
 //        int ch1_num = ch1;
@@ -57,7 +57,7 @@ public class C02Variable {
 //
 ////        char형 알파벳 비교를 위한 묵시적 타입변환 일어난다.
 //        System.out.println('A' > 'a');
-
+//
 //        int my_int1 = 10;
 ////        int -> double
 //        double my_double1 = my_int1
@@ -80,17 +80,20 @@ public class C02Variable {
 //        System.out.println(d);
 //        double d2 = (double)a/b;
 //        System.out.println(d2);
-//
-//
-//
-////        변수와 상수
-////        선언과 동시에 초기화
+
+
+
+//        변수와 상수
+//        선언과 동시에 초기화
 //        int a1 = 10;
 ////        변수값 변경
 //        a1 = 20;
 ////        선언만 한 뒤에 나중에 초기화
-//        int a2; //선언만 됐을때는 값이 0으로 초기화
+//        int a2; //지역변수는 선언만 됐을때는 값이 0으로 초기화되지 않으나, 대체로 선언될때는 0으로 초기화
 //        a2 = 20;
+//        객체로 만들때는 0으로 초기화
+        int[] arr = new int[5];
+        System.out.println(arr[0]);
 ////        상수는 값의 재할당이 불가능
 //        final int ages = 20;
 ////        상수는 값의 변경이 불가능 -> ages = 30; 에러발생
