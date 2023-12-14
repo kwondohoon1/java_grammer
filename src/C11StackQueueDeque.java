@@ -1,7 +1,6 @@
 import java.util.*;
-import java.util.concurrent.ArrayBlockingQueue;
 
-public class C11StackQueue {
+public class C11StackQueueDeque {
     public static void main(String[] args) {
 //        Stack<Integer> mySt = new Stack<>();
 //        mySt.push(10);
@@ -105,10 +104,26 @@ public class C11StackQueue {
 //            System.out.println(pq.poll());
 //        }
 
-        int[] scoville = {1, 2, 3, 9, 10, 12};
-        int K = 7;
-        Stack<Integer> mySt = new Stack<>();
-        }
+//
 
-    }
+
+//    ArrayDeque : 양방향에서 데이터를 삽입 / 제거 할수 있다.
+//    성능빠름
+//        Deque<Integer> myDeque = new ArrayDeque<>();
+//        myDeque.addFirst(10);
+//        myDeque.addFirst(20);
+//        System.out.println(myDeque);
+//        myDeque.addLast(30);
+//        System.out.println(myDeque);
+//        System.out.println(myDeque.pollFirst());
+//        System.out.println(myDeque.pollLast());
+//        System.out.println(myDeque);
+//    }
+//}
+
+
+
+
+        }
 }
+
