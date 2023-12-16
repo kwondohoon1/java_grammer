@@ -1,5 +1,6 @@
 package C12ClassLecture;
 
+
 public class BankService {
     public static void main(String[] args) {
         BankAccount jongwon = new BankAccount("1234");
@@ -50,4 +51,4 @@ class BankAccount{
     public int checkBalance(){
         return this.balance;
     }
-}
+}*/
