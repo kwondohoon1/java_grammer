@@ -1,2 +1,5 @@
-package C13InheritanceTest;public interface Animalinterface2 {
+package C14Interface;
+
+public interface Animalinterface2 {
+    String play(String a, String b);
 }

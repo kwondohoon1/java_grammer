@@ -12,7 +12,6 @@ public class C1302SuperChiledClass extends SuperParents {
         System.out.println(a);
         System.out.println(super.a);
         System.out.println(b);
-
     }
     public static void main(String[] args) {
         C1302SuperChiledClass sc = new C1302SuperChiledClass();

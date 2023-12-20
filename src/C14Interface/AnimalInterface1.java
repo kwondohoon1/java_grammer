@@ -1,2 +1,5 @@
-package C13InheritanceTest;public interface AnimalInterface1 {
+package C14Interface;
+
+public interface AnimalInterface1 {
+    void makeSound();
 }
