@@ -33,6 +33,7 @@ class AuthorController {
                     Optional<Author> loginedAuthor = Optional.empty();
                     try {
                         loginedAuthor = authorService.login(author_email, author_password);
+                        System.out.println(loginedAuthor.get().getName() + "님 환영합니다.");
                     }catch (IllegalArgumentException e){
                         System.out.println(e.getMessage());
                     }catch (NoSuchElementException e){
